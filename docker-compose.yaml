@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    build: .
+    container_name: "tg-bot"
+    volumes:
+      - .:/tg-bot
